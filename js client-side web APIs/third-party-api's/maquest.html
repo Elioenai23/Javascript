@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map-quest example</title>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js" defer></script>
+    <script src="script.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Simple Map-quest example</h1>
+
+    <div id="map"></div>
+    <script>
+        layers: L.mapquest.tileLayer("map");
+        map.addControl(L.mapquest.control());
+        map.addControl(L.mapquest.control({ position: "bottomright"}));
+
+        L.marker([53.480759, -2.242631], {
+            icon: L.mapquest.icons.marker({
+                primaryColor: "#2240F",
+                secondaryColor: "#3B5998",
+                shadow: true,
+                size: "md",
+                symbol: "A",
+            }),
+        }) 
+
+        .bindPopup("This is Manchester!")
+        .addTo(map);
+    </script>
+  </body>
+</html>

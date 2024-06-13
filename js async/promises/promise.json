@@ -1,0 +1,61 @@
+	
+0	
+name	"baked beans"
+price	0.4
+image	"beans.jpg"
+type	"vegetables"
+1	
+name	"hot dogs"
+price	1.99
+image	"hotdogs.jpg"
+type	"meat"
+2	
+name	"spam"
+price	2.85
+image	"spam.jpg"
+type	"meat"
+3	
+name	"refried beans"
+price	0.99
+image	"refried.jpg"
+type	"vegetables"
+4	
+name	"kidney beans"
+price	0.58
+image	"kidney.jpg"
+type	"vegetables"
+5	
+name	"garden peas"
+price	0.52
+image	"gardenpeas.jpg"
+type	"vegetables"
+6	
+name	"mushy peas"
+price	0.58
+image	"mushypeas.jpg"
+type	"vegetables"
+7	
+name	"corned beef"
+price	2.39
+image	"cornedbeef.jpg"
+type	"meat"
+8	
+name	"tomato soup"
+price	1.4
+image	"tomatosoup.jpg"
+type	"soup"
+9	
+name	"chopped tomatoes"
+price	0.45
+image	"tomato.jpg"
+type	"vegetables"
+10	
+name	"chicken noodle soup"
+price	1.89
+image	"chickennoodle.jpg"
+type	"soup"
+11	
+name	"carrot and coriander soup"
+price	1.49
+image	"carrotcoriander.jpg"
+type	"soup"
